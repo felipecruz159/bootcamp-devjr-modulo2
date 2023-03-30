@@ -1,21 +1,66 @@
 .main-container{
     background-color: var(--dark-purple);
+    text-align: center;
+    width: 97%;
+    margin: 0.2rem auto;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .formulario{
     background-color: var(--light-purple);
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
-.card{
-    background-color: var(--blue);
-    border: 3px solid var(--blue-border);
-}
-
-h1{
-    color: var(--yellow);
+input{
+    display: block;
+    margin: 0 auto;
+    border-radius: 0.2rem;
+    border-color: transparent;
+    margin-bottom: 0.5rem;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 button{
     background-color: var(--dark-button);
     color: var(--white);
+    display: block;
+    margin: 0 auto;
+    border-radius: 0.2rem;
+    border-color: transparent;
+    width: 6rem;
+    height: 3rem;
+    /* font-size: ; */
+}
+
+input:focus{
+    outline: none;
+}
+
+.card{
+    background-color: var(--blue);
+    border-width: 12px 8px 8px 8px;
+    border-style: solid;
+    border-color: var(--blue-border);
+    border-radius: 0.5rem;
+    width: 50%;
+    margin: 0 auto;
+    height: 15rem;
+    margin-bottom: 1rem;
+}
+
+object{
+    width: 8rem;
+    margin: 0 auto;
+}
+
+h1{
+    color: var(--yellow);
+    padding: 10px;
+    margin: 0;
 }
