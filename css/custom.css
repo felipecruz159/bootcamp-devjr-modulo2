@@ -1,0 +1,21 @@
+.main-container{
+    background-color: var(--dark-purple);
+}
+
+.formulario{
+    background-color: var(--light-purple);
+}
+
+.card{
+    background-color: var(--blue);
+    border: 3px solid var(--blue-border);
+}
+
+h1{
+    color: var(--yellow);
+}
+
+button{
+    background-color: var(--dark-button);
+    color: var(--white);
+}

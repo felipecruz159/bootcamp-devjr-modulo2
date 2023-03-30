@@ -1,0 +1,16 @@
+:root {
+    --dark-purple: #1E0C21;
+    --light-purple: #641F70;
+    --yellow: #E6C123;
+    --white: #FFFFFF;
+    --blue-border: #2638DB;
+    --blue: #3C5CEE;
+    --light-blue: #72CCFF;
+    --dark-button: #1D0C20;
+    
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+}
