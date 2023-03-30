@@ -1,5 +1,5 @@
 .main-container{
-    background-color: var(--dark-purple);
+    background-image: linear-gradient(to bottom, var(--dark-purple), var(--light-purple));
     text-align: center;
     width: 97%;
     margin: 0.2rem auto;
@@ -10,7 +10,8 @@
 }
 
 .formulario{
-    background-color: var(--light-purple);
+    background-image: linear-gradient(to bottom, var(--light-purple), var(--dark-purple));
+
     width: 95%;
     margin: 0 auto;
     margin-bottom: 0.5rem;
@@ -49,12 +50,12 @@ input:focus{
 }
 
 .card{
-    background-color: var(--blue);
+    background-image: linear-gradient(to bottom, var(--blue), var(--light-blue));
     border-width: 12px 8px 8px 8px;
     border-style: solid;
     border-color: var(--blue-border);
     border-radius: 0.5rem;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     height: 20rem;
     margin-bottom: 1rem;
